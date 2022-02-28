@@ -1,0 +1,16 @@
+.main {
+  min-height: 84.7vh;
+}
+
+.bg-waiting {
+  background-color: #f1c40f;
+}
+.bg-picked {
+  background-color: #f39c12;
+}
+.bg-transit {
+  background-color: #dc7633;
+}
+.bg-placed {
+  background-color: #52be80;
+}
