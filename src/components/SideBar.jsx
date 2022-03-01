@@ -1,5 +1,5 @@
-import React from 'react';
+import AppCard from './AppCard';
 
 export default function SideBar() {
-  return <div className="bg-light">SideBar</div>;
+  return <AppCard />;
 }

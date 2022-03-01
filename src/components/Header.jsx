@@ -4,7 +4,13 @@ import { Container, Navbar, Nav, Form } from 'react-bootstrap';
 export default function Header() {
   return (
     <header>
-      <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar
+        bg="primary"
+        variant="dark"
+        expand="lg"
+        fixed="top"
+        collapseOnSelect
+      >
         <Container fluid>
           <Navbar.Brand>
             <span>Parking Tracker</span>

@@ -8,12 +8,12 @@ function App() {
     <>
       <Header />
 
-      <Container className="main py-1" fluid>
+      <Container className="main py-1 mt-5" fluid>
         <Row>
           <Col>
             <Main />
           </Col>
-          <Col sm={12} md={4} lg={3} xl={2}>
+          <Col sm={12} md={6} lg={4} xl={2}>
             <SideBar />
           </Col>
         </Row>
